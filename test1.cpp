@@ -1,7 +1,10 @@
 #include "iostream"
 
-void mult(int a, int b)
+void mult()
 {
+	int a;
+	int b;
+	std::cin >> a >> b;
 	std::cout << a * b << "\n";
 
 
@@ -13,7 +16,7 @@ int main()
 	int b;
 	std::cin >> a >> b;
 	std::cout << a + b << "\n";
-	mult(a, b);
+	mult();
 
 
 
